@@ -1,6 +1,7 @@
 {
   "name": "robofriends",
   "packageManager": "yarn@4.9.1",
+  "homepage": "https://Vortex1134.github.io/robofriends",
   "version": "1.0.0",
   "description": "robofriends",
   "author": "Vincent Boromeo - ZTM Academy",
@@ -9,9 +10,12 @@
   "scripts": {
     "start": "webpack serve --open --mode development",
     "build": "webpack --mode production",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "serve": "serve -s dist/"
   },
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router-dom": "^7.8.2"

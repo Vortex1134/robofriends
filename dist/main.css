@@ -1,0 +1,5 @@
+
+#home{text-align:center}#home h1{font-size:3.2rem}
+.searchbox{margin-bottom:2rem}.searchbox input{padding:10px;width:300px;font-size:16px;border:1px solid #ccc;border-radius:8px;background-color:hsl(210,100%,83%);color:hsl(210,0%,25%)}
+
+body{background:linear-gradient(to left, rgb(7, 27, 82) 0%, rgb(0, 128, 129) 100%)}.bg-light-green{background-color:#9eebcf}.dib{display:inline-block}.br3{border-radius:.5rem}.pa3{padding:1rem}.ma2{margin:.5rem}.grow{transition:transform .25s ease-out}.grow:hover{transform:scale(1.05)}.bw2{border-width:.25rem}.shadow-5{box-shadow:4px 4px 8px 0 rgba(0,0,0,.2)}.tc{text-align:center}
