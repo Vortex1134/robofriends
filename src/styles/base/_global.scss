@@ -1,0 +1,45 @@
+@use '@/styles/abstracts' as g;
+
+body {
+    background: linear-gradient(to left, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 129, 1) 100%);
+}
+
+.bg-light-green {
+    background-color: #9eebcf;
+}
+
+.dib {
+    display: inline-block;
+}
+
+.br3 {
+    border-radius: 0.5rem;
+}
+
+.pa3 {
+    padding: 1rem;
+}
+
+.ma2 {
+    margin: 0.5rem;
+}
+
+.grow {
+    transition: transform 0.25s ease-out;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.bw2 {
+    border-width: 0.25rem;
+}
+
+.shadow-5 {
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.tc {
+    text-align: center;
+}
